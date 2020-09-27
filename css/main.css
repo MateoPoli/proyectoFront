@@ -10,13 +10,16 @@ footer{
     margin-top: 20px;
 }
 
+footer a{
+    color: white;
+}
+
 .card-produc{
-    flex: 1 300px;
+    flex: 1 150px;
     padding: 2px 5px 2px 5px;
     margin-bottom: 10px;
 }
 
-.card-produc .btn{
-    width: 150px;
-
+.btn-obtener{
+    width: 100%;
 }
