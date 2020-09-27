@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Nuestro primer proyecto de Node Js",
   "main": "index.html",
-  "scripts": {
+  "scripts": { 
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,5 +13,8 @@
   },
   "author": "Mateo Preisiga",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/MateoPH/proyectoweb#readme"
+  "homepage": "https://bitbucket.org/MateoPH/proyectoweb#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
