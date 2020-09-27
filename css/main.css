@@ -1,0 +1,22 @@
+.jumbotron{
+    background-color: slateblue;
+    color: white;
+}
+
+footer{
+    padding: 10px;
+    background-color: slateblue;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.card-produc{
+    flex: 1 300px;
+    padding: 2px 5px 2px 5px;
+    margin-bottom: 10px;
+}
+
+.card-produc .btn{
+    width: 150px;
+
+}
