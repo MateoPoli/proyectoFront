@@ -1,0 +1,16 @@
+{
+  "name": "proyectoweb",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto de Node Js",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://MateoPH@bitbucket.org/MateoPH/proyectoweb.git"
+  },
+  "author": "Mateo Preisiga",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/MateoPH/proyectoweb#readme"
+}
