@@ -42,28 +42,63 @@
 
     <div class="container">
 
-        <nav aria-label="breadcrumb"> 
+        <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
                 <li class="breadcrumb-item" aria-current="page">contactUs</li>
             </ol>
         </nav>
 
+        <h2>Dejame tu comentario</h2>
 
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum molestiae corrupti perspiciatis eaque, neque
-            itaque doloribus deleniti vel, excepturi alias voluptatibus placeat possimus ducimus sint quo dolore
-            adipisci voluptate dolores. Cupiditate earum, aliquam doloremque tempore labore nulla deleniti optio ex
-            debitis veritatis ullam repellat in libero id a! Corporis, iste! Maiores commodi repudiandae accusamus,
-            soluta, incidunt excepturi aliquid unde at quisquam possimus nisi delectus praesentium culpa vitae
-            doloremque corrupti libero ipsum repellat voluptate pariatur non dolor? Vitae ratione commodi ducimus
-            aspernatur officia dolor unde? Optio aspernatur magni soluta nam expedita iure nesciunt aperiam obcaecati,
-            nemo corrupti provident, voluptates vel assumenda maiores temporibus cumque dolore. Labore veritatis
-            accusamus saepe maiores beatae, corrupti enim maxime et consectetur odio itaque impedit illo eos facilis
-            eveniet, architecto nam reprehenderit voluptates quae quisquam. Fugit, veniam quaerat incidunt consequuntur
-            cumque praesentium ad accusantium quas! Libero esse minima amet, voluptate dolorum sit fugiat sed vero
-            laudantium delectus?</p>
+        <form action="">
+            <div class="form-row">
+                <div class="form-group col-sm-6">
+                    <label for="name">name</label>
+                    <input type="text" class="form-control" id="lastname" placeholder="Your name">
+                </div>
+                <div class="form-group col-sm-6">
+                    <label for="lastname">Last-name</label>
+                    <input type="text" class="form-control" id="lastaname" placeholder="Your last-name">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Your email">
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-sm-9">
+                    <label for="adress">Adress</label>
+                    <input type="text" class="form-control" id="adress" placeholder="Your Adress">
+                </div>
+                <div class="form-group col-sm3">
+                    <label for="state">State</label>
+                    <select id="state" class="form-control">
+                        <option Selected>Florida</option>
+                        <option >Washington</option>
+                        <option >Chicago</option>
+                        <option >Texas</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="coment">Comentario</label>
+                <textarea id="coment" class="form-control" rows="10"></textarea>
+            </div>
+
+            <div class="form-group">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="gridCheck">
+                    <label for="gridCheck" class="form-check-label"> I want you to contact me</label>
+
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
-
 
 
     <footer>
