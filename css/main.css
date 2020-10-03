@@ -16,11 +16,21 @@ footer a{
 }
 
 .card-produc{
-    flex: 1 150px;
-    padding: 2px 5px 2px 5px;
+    flex: 1 200px;
     margin-bottom: 10px;
 }
 
 .btn-obtener{
     width: 100%;
+    border-radius: 0px;
+}
+
+
+.card-img-top{
+    width: 200px;
+}
+
+.main_img{
+    width: 100px;
+    margin: 10px;
 }
