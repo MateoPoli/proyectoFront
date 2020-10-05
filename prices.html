@@ -49,72 +49,103 @@
             </ol>
         </nav>
 
-        <div class="table-responsive">
-            <table class="table table-striped">
-                <thead class="thead-dark">
-                    <th>Cannabis </th>
-                    <th>Cannabis blond</th>
-                    <th>Cannabis black</th>
-                    <th>Cannabis reaper</th>
-                    <th>Cannabis Bapper</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><span class="oi oi-check"></span>Gram[g]</td>
-                        <td>100$</td>
-                        <td>200$</td>
-                        <td>300$</td>
-                        <td>150$</td>
-                    </tr>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="compara-tab" data-toggle="tab" href="#compara" role="tab"
+                    aria-controls="compara" aria-selected="true">Compara</a>
+            </li>
 
-                    <tr>
-                        <td><span class="oi oi-check"></span>Pound[l]</td>
-                        <td>1000$</td>
-                        <td>2000$</td>
-                        <td>3000$</td>
-                        <td>1500$</td>
-                    </tr>
+            <li class="nav-item">
+                <a class="nav-link" id="targetas-tab" data-toggle="tab" href="#targetas" role="tab"
+                    aria-controls="targetas" aria-selected="false">Targetas</a>
+            </li>
 
-                    <tr>
-                        <td><span class="oi oi-check"></span>Kilogram[Kg]</td>
-                        <td>9600$</td>
-                        <td>8700$</td>
-                        <td>13200$</td>
-                        <td>10500$</td>
-                    </tr>
+            <li class="nav-item">
+                <a class="nav-link" id="comentarios-tab" data-toggle="tab" href="#comentarios" role="tab"
+                    aria-controls="comentarios" aria-selected="false">Comentarios</a>
+            </li>
 
-                    <tr>
-                        <td><span class="oi oi-check"></span>1/2 Pund</td>
-                        <td>500$</td>
-                        <td>600$</td>
-                        <td>800$</td>
-                        <td>850$</td>
-                    </tr>
+        </ul>
 
-                    <tr>
-                        <td><span class="oi oi-check"></span>1/4 pount</td>
-                        <td>320$</td>
-                        <td>420$</td>
-                        <td>110$</td>
-                        <td>150$</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compara-tab">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead class="thead-dark">
+                            <th>Cannabis </th>
+                            <th>Cannabis blond</th>
+                            <th>Cannabis black</th>
+                            <th>Cannabis reaper</th>
+                            <th>Cannabis Bapper</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="oi oi-check"></span>Gram[g]</td>
+                                <td>100$</td>
+                                <td>200$</td>
+                                <td>300$</td>
+                                <td>150$</td>
+                            </tr>
 
-        <div class="d-flex justify-content-center">
-            <div class="card" style="width: 18rem;">
-                <div class="card-header bg-dark" style="color: antiquewhite;">
-                    Weed Types
+                            <tr>
+                                <td><span class="oi oi-check"></span>Pound[l]</td>
+                                <td>1000$</td>
+                                <td>2000$</td>
+                                <td>3000$</td>
+                                <td>1500$</td>
+                            </tr>
+
+                            <tr>
+                                <td><span class="oi oi-check"></span>Kilogram[Kg]</td>
+                                <td>9600$</td>
+                                <td>8700$</td>
+                                <td>13200$</td>
+                                <td>10500$</td>
+                            </tr>
+
+                            <tr>
+                                <td><span class="oi oi-check"></span>1/2 Pund</td>
+                                <td>500$</td>
+                                <td>600$</td>
+                                <td>800$</td>
+                                <td>850$</td>
+                            </tr>
+
+                            <tr>
+                                <td><span class="oi oi-check"></span>1/4 pount</td>
+                                <td>320$</td>
+                                <td>420$</td>
+                                <td>110$</td>
+                                <td>150$</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">bapper</li>
-                    <li class="list-group-item">blond</li>
-                    <li class="list-group-item">black</li>
-                    <li class="list-group-item">reaper</li>
-                </ul>
             </div>
+
+            <div class="tab-pane fade" id="targetas" role="tabpanel" aria-labelledby="targetas-tab">
+                <div class="d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-header bg-dark" style="color: antiquewhite;">
+                            Weed Types
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">bapper</li>
+                            <li class="list-group-item">blond</li>
+                            <li class="list-group-item">black</li>
+                            <li class="list-group-item">reaper</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">Comentarios</div>
+
         </div>
+
+
+
+
 
     </div>
 
