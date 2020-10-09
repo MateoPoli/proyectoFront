@@ -119,6 +119,28 @@
 
         <hr>
 
+        <div id="carouselControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 img" src="./Img/carousel1.jpg" alt="Primer_slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 img" src="./Img/carousel2.jpg" alt="Segundo_slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 img" src="./Img/carousel3.jpg" alt="Tercer_slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+        <hr>
         <div class="d-flex flex-wrap flex-row-reverse">
 
             <div class="card card-produc d-flex flex-column justify-content-between ml-2">
@@ -273,6 +295,9 @@
         $(function () {
             $("[data-toggle='tooltip']").tooltip();
             $("[data-toggle='popover']").popover();
+            $('.carousel').carousel({
+                interval: 2000
+            });
         });
     </script>
 </body>
