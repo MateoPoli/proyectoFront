@@ -1,12 +1,19 @@
+$azul: #6a5acd;
+
+@mixin margenes($top, $bottom){
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
 .jumbotron{
-    background-color: #6a5acd;
+    background-color: $azul;
     color: white;
-    margin-top: 54px;
+    @include margenes(50px, 0px);
 }
 
 footer{
     padding: 10px;
-    background-color: slateblue;
+    background-color: $azul;
     margin-bottom: 0;
     margin-top: 20px;
 }
@@ -24,7 +31,6 @@ footer a{
     width: 100%;
     border-radius: 0px;
 }
-
 
 .card-img-top{
     width: 200px;

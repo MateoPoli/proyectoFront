@@ -1,0 +1,35 @@
+.jumbotron {
+  background-color: #6a5acd;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 0px; }
+
+footer {
+  padding: 10px;
+  background-color: #6a5acd;
+  margin-bottom: 0;
+  margin-top: 20px; }
+
+footer a {
+  color: white; }
+
+.card-produc {
+  flex: 1 200px;
+  margin-bottom: 10px; }
+
+.btn-obtener {
+  width: 100%;
+  border-radius: 0px; }
+
+.card-img-top {
+  width: 200px; }
+
+.main_img {
+  width: 210px;
+  margin-bottom: 10px; }
+
+.tab-content {
+  padding-top: 10px; }
+
+.img {
+  height: 350px; }
