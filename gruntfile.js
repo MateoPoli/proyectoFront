@@ -1,4 +1,8 @@
 module.exports = function(grunt){
+    require('time-grunt')(grunt);
+    require('jit-grunt')(grunt,{
+        useminPrepare: 'grunt-usemin'
+    });
     grunt.initConfig({
         sass:{
             dist:{
